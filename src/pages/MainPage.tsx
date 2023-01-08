@@ -65,7 +65,7 @@ const MainPage = () => {
   }
 
   return (
-    <div className='flex'>
+    <div className='flex p-2'>
       <ActionBar onClickAddFloor={handleAddFloor} onClickAddTable={handleAddTable} onClickResetFloor={handleResetFloor} />
       <div>
         <FloorsList 
